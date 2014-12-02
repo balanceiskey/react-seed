@@ -1,0 +1,38 @@
+{
+    "boss": true,
+    "curly": true,
+    "devel": true,
+    "eqnull": true,
+    "expr": true,
+    "funcscope": true,
+    "globalstrict": true,
+    "loopfunc": true,
+    "newcap": false,
+    "noempty": true,
+    "nonstandard": true,
+    "onecase": true,
+    "sub": true,
+    "regexdash": true,
+    "trailing": true,
+    "undef": true,
+    "unused": "vars",
+    "browser": true,
+    "trailing": false,
+    "es3": true,
+    "predef": [
+        "exports",
+        "module",
+        "require"
+    ],
+    "globals" : {
+        "it"         : false,
+        "xit"        : false,
+        "describe"   : false,
+        "xdescribe"  : false,
+        "beforeEach" : false,
+        "afterEach"  : false,
+        "expect"     : false,
+        "spyOn"      : false
+      }
+}
+
